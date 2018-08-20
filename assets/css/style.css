@@ -3,42 +3,32 @@
 
 .jon {
 	text-align: center;
-	position: relative;
-	left: 50px;
 	color: aliceblue;
 	font-size: 50px;
 	margin: 10px;
 	padding: 150px;
 	background: url(../../image/web-design-background-montreal-1-1200x630.jpg);
-	position: relative;
-	left: 300px;
 	background-repeat: no-repeat;
 }
-
 body {
 	background-image: url(../../image/wallpaper2you_109379.jpg);
-
 }
-
 a {
 	position: relative;
-	left: 500px;
-	top: 30px color: white;
-	padding: 15px 45px;
+	left: 300px;
+	letter-spacing: 2px;
+	padding: 15px 65px 15px 65px;
 	text-align: center;
-	text-decoration: none;
 	display: inline-block;
 	background-color: black;
-
-
+	color: deepskyblue;
+	text-decoration: none;
+	
 }
-
-a:hover,
-a:active {
+a:hover, a:active {
 	background-color: white;
-	color: gray;
+	color: black;
 }
-
 .center {
 	display: block;
 	margin-left: auto;
@@ -46,13 +36,84 @@ a:active {
 	width: 50%;
 	margin-top: 90px;
 }
-
 body {
 	height: 50%;
-
 }
 
-.j {
+.jj{
+	
+	text-align: center;
+	font-size: 60px;
+	color: whitesmoke
+	
+}
+
+#info{
+	color: whitesmoke;
+	font-size: 25px;
+	
+}
+
+
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px ;
+    border: 1px solid #E9E9E9;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: dimgray;
+    color: deepskyblue;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color: gainsboro;
+}
+
+.container {
+   
+    color: whitesmoke;
+	font-size: 20px;
 	position: relative;
-	right: 300px;
+	top: 950px
+    
+}
+
+.col-25 {
+    
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
