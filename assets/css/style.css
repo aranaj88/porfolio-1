@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.jon {
+	text-align: center;
+	color: aliceblue;
+	font-size: 50px;
+	margin: 90px;
+	padding: 90px;
+	background: url(../../image/web-design-background-montreal-1-1200x630.jpg);
+	
+	
+}
+body {
+	background-image:url(../../image/wallpaper2you_109379.jpg);
+	
+}
+a {
+	position: relative;
+	left: 650px;
+	color: white;
+	padding: 15px 45px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	background-color: black;
+	
+	
+}
+a:hover, a:active {
+	background-color: white;
+	color: gray;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	margin-top: 90px;
+}
+
+body{
+	height: 50%;
+	
+}
