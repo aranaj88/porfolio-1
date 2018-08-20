@@ -9,13 +9,16 @@
 	padding: 150px;
 	background: url(../../image/web-design-background-montreal-1-1200x630.jpg);
 	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	left: 20px
 }
 body {
 	background-image: url(../../image/wallpaper2you_109379.jpg);
 }
 a {
 	position: relative;
-	left: 300px;
+	left: 230px;
 	letter-spacing: 2px;
 	padding: 15px 65px 15px 65px;
 	text-align: center;
@@ -51,6 +54,8 @@ body {
 #info{
 	color: whitesmoke;
 	font-size: 25px;
+	position: relative;
+	top: 00px;
 	
 }
 
@@ -116,4 +121,12 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+}
+
+#ja{
+	height: 900px;
+	position: relative;
+	left: 190px
+	
+	
 }
