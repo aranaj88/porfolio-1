@@ -3,44 +3,56 @@
 
 .jon {
 	text-align: center;
+	position: relative;
+	left: 50px;
 	color: aliceblue;
 	font-size: 50px;
-	margin: 90px;
-	padding: 90px;
+	margin: 10px;
+	padding: 150px;
 	background: url(../../image/web-design-background-montreal-1-1200x630.jpg);
-	
-	
+	position: relative;
+	left: 300px;
+	background-repeat: no-repeat;
 }
+
 body {
-	background-image:url(../../image/wallpaper2you_109379.jpg);
-	
+	background-image: url(../../image/wallpaper2you_109379.jpg);
+
 }
+
 a {
 	position: relative;
-	left: 650px;
-	color: white;
+	left: 500px;
+	top: 30px color: white;
 	padding: 15px 45px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	background-color: black;
-	
-	
+
+
 }
-a:hover, a:active {
+
+a:hover,
+a:active {
 	background-color: white;
 	color: gray;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	margin-top: 90px;
 }
 
-body{
+body {
 	height: 50%;
-	
+
+}
+
+.j {
+	position: relative;
+	right: 300px;
 }
