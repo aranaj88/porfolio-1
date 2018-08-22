@@ -14,6 +14,32 @@
 	left: 20px
 }
 
+.cont {
+	height: 100vh;
+}
+
+.flex_item1 {
+	margin-top: 190px;
+	margin-left: 50px;
+	color: whitesmoke;
+	display: inline-block;
+	align-content: center;
+}
+
+p {
+	margin-top: 190px;
+	margin-left: 70px;
+	font-size: 20px;
+	color: whitesmoke;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
 body {
 	background-image: url(../../image/wallpaper2you_109379.jpg);
 	background-size: cover;
@@ -24,6 +50,21 @@ body {
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+
+.tel_icon {
+	background-color: black;
+	padding: 5px 15px 10px 15px;
+	box-sizing: content-box;
+}
+
+.tel_icon:hover {
+
+	background-color: whitesmoke;
+	color: black;
+	text-shadow: 0.1em 0.1em 0.15em;
+
 }
 
 a {
@@ -97,7 +138,8 @@ input[type=submit]:hover {
 
 	color: whitesmoke;
 	font-size: 20px;
-	margin-top: 60%;
+	margin-top: 30%;
+	margin-left: 40px;
 
 }
 
@@ -114,7 +156,7 @@ input[type=submit]:hover {
 }
 
 
-.row:after {
+.fo:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -137,7 +179,6 @@ input[type=submit]:hover {
 	width: 40%;
 }
 
-.map {}
 
 .ser {
 	position: relative;
@@ -152,17 +193,14 @@ input[type=submit]:hover {
 	box-sizing: border-box;
 }
 
-.column {
-	float: left;
-	width: 33.33%;
-	padding: 6px;
-}
+
 
 .col1 {
 	margin: auto;
 	width: 30%;
 	position: relative;
-	top: 50px
+	top: 50px;
+	display: inline-block;
 }
 
 .col2 {
@@ -170,6 +208,7 @@ input[type=submit]:hover {
 	color: whitesmoke;
 	margin: auto;
 	width: 30%;
+	display: inline-block;
 }
 
 .column h6 {
@@ -183,13 +222,43 @@ input[type=submit]:hover {
 .row::after {
 	content: "";
 	clear: both;
-	display: table;
+
 	background-size: cover;
 	display: inline-block;
 }
 
-#web {
-	margin: auto;
-	width: 70%
 
+
+.flex_container {
+	height: 80vh;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+
+.flex_item {
+
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	
+}
+
+.flex_container2{
+	height: ;
+	display: inline-block;
+}
+	
+}
+
+
+.flex_item2{
+	
+	width: 90%;
+	height: 100%;
+	border: 1px solid black;
+	
+	
 }
