@@ -14,35 +14,25 @@
 	left: 20px
 }
 
-.cont {
+#cont {
 	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .flex_item1 {
 	margin-top: 190px;
-	margin-left: 50px;
+	margin-left: 130px;
 	color: whitesmoke;
+	font-size: 30px;
 	display: inline-block;
-	align-content: center;
 }
-
-p {
-	margin-top: 190px;
-	margin-left: 70px;
-	font-size: 20px;
-	color: whitesmoke;
-	display: inline-block;
-	letter-spacing: 2px;
-}
-
-
-
-
 
 
 body {
 	background-image: url(../../image/wallpaper2you_109379.jpg);
-	background-size: cover;
+	
 	width: 100%;
 }
 
@@ -138,14 +128,14 @@ input[type=submit]:hover {
 
 	color: whitesmoke;
 	font-size: 20px;
-	margin-top: 30%;
-	margin-left: 40px;
+	margin-top: 20%;
+	margin-left: 500px;
 
 }
 
 .col-25 {
 
-	width: 0%;
+	width: 80%;
 	margin-top: 6px;
 }
 
@@ -176,7 +166,7 @@ input[type=submit]:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;
+	width: 20%;
 }
 
 
@@ -246,19 +236,60 @@ input[type=submit]:hover {
 	
 }
 
-.flex_container2{
-	height: ;
+.forms {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+	margin-top: 140px;
+}
+
+.serv::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.serv {
+  display: flex;
+}
+
+.forms {
+  flex: 20%;
+  padding: 4px;
+}
+
+.par{
+	color: whitesmoke;
 	display: inline-block;
-}
+	margin-top: 90px;
+	position: relative;
+	left: 270px;
+	font-size: 30px;
+	letter-spacing: 1px
 	
 }
 
-
-.flex_item2{
-	
-	width: 90%;
-	height: 100%;
-	border: 1px solid black;
-	
+.par2{
+	color: whitesmoke;
+	display: inline-block;
+	margin-top: 90px;
+	position: relative;
+	left: 200px;
+	font-size: 35px;
+	letter-spacing: 1px
 	
 }
+
+.prog {
+	height: 50vh;
+	display: flex;
+
+	
+}
+
+.site{
+	position: relative
+	width: 500px;
+	
+}
+
